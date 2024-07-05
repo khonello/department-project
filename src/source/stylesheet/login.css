@@ -1,0 +1,22 @@
+.textFeld {
+    -fx-base: null;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #1C3C2C transparent;
+    -fx-border-width: 0 0 2px 0;
+    -fx-padding: 5px 0;
+}
+
+.combo-box {
+    -fx-background-color: #1C3C2C;
+}
+
+.combo-box .list-cell:selected {
+    -fx-text-fill: white;
+}
+
+.combo-box .arrow-button {
+
+}
+/* .combo-box .arrow-button {
+    -fx-background-color: #1C3C2C;
+} */

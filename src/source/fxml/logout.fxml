@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="760.0" style="-fx-background-color: #F6CD5B;" stylesheets="@../stylesheet/login.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="source.controllers.LogoutController">
+   <children>
+      <StackPane prefHeight="400.0" prefWidth="501.0">
+         <children>
+            <HBox prefHeight="400.0" prefWidth="450.0">
+               <children>
+                  <VBox prefHeight="400.0" prefWidth="258.0" style="-fx-background-color: white;" />
+                  <VBox prefHeight="400.0" prefWidth="266.0" style="-fx-background-color: #1C3C2C;" />
+               </children>
+            </HBox>
+            <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="251.0">
+               <children>
+                  <Label style="-fx-base: null;" text="You are Logged Out">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="35.0" top="100.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <ImageView fitHeight="62.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../img/anma.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="62.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../img/stats.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="54.0" prefWidth="501.0">
+                     <children>
+                        <Button alignment="CENTER" mnemonicParsing="false" onMouseClicked="#handleLoginClick" prefHeight="25.0" prefWidth="196.0" style="-fx-border-color: #00b2ff; -fx-border-width: 2; -fx-border-radius: 3; -fx-background-color: transparent;" text="Login Again" textFill="#00b2ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+   </children>
+</HBox>

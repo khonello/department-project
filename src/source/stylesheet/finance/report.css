@@ -1,0 +1,16 @@
+.general {
+    -fx-text-fill: black;
+}
+
+.table-view .column-header {
+    -fx-background-color: lightblue;
+    -fx-border-color: lightblue;
+    -fx-border-width: 0 0 1px 0;
+    -fx-text-fill: black;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+}
